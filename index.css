@@ -7,6 +7,9 @@
   --lynx-grey: #c5c5c5;
   --primary-color: #14213d;
   --secondary-color: #f3f4f6;
+  --danger-color: #dc2626;
+  --warning-color: #fbbf24;
+  --success-color: #34d399;
   font-family: 'Roboto', sans-serif;
 }
 /* CSS resets */
