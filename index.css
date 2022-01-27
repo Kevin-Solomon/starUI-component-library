@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root {
+  --black-color: #282828;
+  --grey-color: #9a9a9a;
+  --white-color: #ffffff;
+  --lynx-white: #f7f7f7;
+  --lynx-grey: #c5c5c5;
+  --primary-color: #14213d;
+  --secondary-color: #f3f4f6;
+  font-family: 'Roboto', sans-serif;
+}
+/* CSS resets */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Typography */
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 900;
+}
+h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+}
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 900;
+}
+h4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 900;
+}
+h5 {
+  font-size: 0.5rem;
+  line-height: 1rem;
+  font-weight: 900;
+}
+.x-large-text {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.large-text {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.medium-text {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.small-text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.extra-small-text {
+  font-size: 0.5rem;
+  line-height: 1rem;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: baseline;
+  padding: 1rem;
+}
+.navbar .right-nav {
+  margin-left: auto;
+}
+.right-nav ul {
+  padding: 0;
+  margin: 0;
+}
+.right-nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0.8rem;
+}
+/* Body */
+.container-center {
+  width: 80%;
+  padding-top: 8rem;
+  margin: 0 auto;
+  text-align: center;
+}
+/* button */
+.btn {
+  padding: 0.5em;
+  margin: 1em;
+  min-width: 8rem;
+  transition: box-shadow 0.5s ease-in-out;
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+.primary-btn {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: 1px solid var(--primary-color);
+}
+.secondary-btn {
+  border: 1px solid var(--primary-color);
+}
+
+/* media query */
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.5rem;
+  }
+  .container-center {
+    padding-top: 5rem;
+  }
+}
