@@ -7,6 +7,9 @@
   --lynx-grey: #c5c5c5;
   --primary-color: #14213d;
   --secondary-color: #f3f4f6;
+  --danger-color: #dc2626;
+  --warning-color: #fbbf24;
+  --success-color: #34d399;
   font-family: 'Roboto', sans-serif;
 }
 /* CSS resets */
@@ -70,7 +73,7 @@ h5 {
 .navbar .right-nav {
   margin-left: auto;
 }
-.right-nav ul {
+ul {
   padding: 0;
   margin: 0;
 }
@@ -87,6 +90,10 @@ h5 {
   text-align: center;
 }
 /* button */
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .btn {
   padding: 0.5em;
   margin: 1em;
@@ -109,6 +116,46 @@ h5 {
 .secondary-btn {
   border: 1px solid var(--primary-color);
 }
+/* Center div */
+.body-center {
+  margin: 0 auto;
+  width: 80%;
+}
+/* flex container */
+.container-flex {
+  display: flex;
+}
+.aside {
+  flex-basis: 20%;
+  margin-right: 1rem;
+}
+.section {
+  flex-grow: 0;
+  margin-left: 1rem;
+  width: 60%;
+  margin: 0 auto;
+}
+.aside li {
+  list-style-type: none;
+  padding: 0.5rem;
+}
+/* border bottom  */
+.underline {
+  border-bottom: 1px solid var(--lynx-grey);
+}
+.section-content {
+  padding-bottom: 1rem;
+}
+/* carbonsh code example */
+iframe {
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .body-center {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
 
 /* media query */
 
@@ -118,5 +165,18 @@ h5 {
   }
   .container-center {
     padding-top: 5rem;
+  }
+  .body-center {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .aside {
+    display: none;
+  }
+  .section {
+    width: 90%;
   }
 }
