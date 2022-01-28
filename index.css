@@ -10,6 +10,8 @@
   --danger-color: #dc2626;
   --warning-color: #fbbf24;
   --success-color: #34d399;
+  --text-muted-color: #6c757d;
+  --action-color: #3b82f6;
   font-family: 'Roboto', sans-serif;
 }
 /* CSS resets */
@@ -60,7 +62,7 @@ h5 {
   font-size: 1rem;
   line-height: 1.5rem;
 }
-.extra-small-text {
+.x-small-text {
   font-size: 0.5rem;
   line-height: 1rem;
 }
@@ -93,6 +95,10 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
+}
+.active {
+  color: var(--action-color);
 }
 .btn {
   padding: 0.5em;
@@ -150,14 +156,22 @@ a {
 iframe {
   width: 100%;
 }
+
+/* code examples */
+.example-code {
+  background-color: var(--lynx-white);
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--lynx-grey);
+}
+
+/* media query */
 @media (max-width: 1024px) {
   .body-center {
     margin: 0 auto;
     width: 90%;
   }
 }
-
-/* media query */
 
 @media (max-width: 480px) {
   .navbar {
