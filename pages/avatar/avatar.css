@@ -1,0 +1,27 @@
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.img-container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.avatar-sm {
+  width: 30px;
+  height: 30px;
+}
+.avatar-md {
+  width: 50px;
+  height: 50px;
+}
+.avatar-lg {
+  width: 70px;
+  height: 70px;
+}
+.square {
+  border-radius: 10px;
+}

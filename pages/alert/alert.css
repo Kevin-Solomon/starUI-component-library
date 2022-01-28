@@ -1,0 +1,21 @@
+.alert {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 1rem;
+}
+.outline-primary {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.outline-danger {
+  border: 1px solid var(--danger-color);
+  color: var(--danger-color);
+}
+.outline-warning {
+  border: 1px solid var(--warning-color);
+  color: var(--warning-color);
+}
+.outline-success {
+  border: 1px solid var(--success-color);
+  color: var(--success-color);
+}
