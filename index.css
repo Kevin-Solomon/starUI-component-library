@@ -104,7 +104,8 @@ a {
   padding: 0.5em;
   margin: 1em;
   min-width: 8rem;
-  transition: box-shadow 0.5s ease-in-out;
+  min-height: 3rem;
+  transition: all 0.5s ease-in-out;
   border: none;
   background-color: transparent;
   border-radius: 5px;
