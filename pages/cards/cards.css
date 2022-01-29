@@ -31,11 +31,15 @@
   align-items: baseline;
   padding: 0;
 }
+.card-footer button {
+  margin: 1rem;
+}
 .text-card > * {
   display: none;
 }
 .text-card p,
 .text-card h3 {
+  padding: 10px;
   display: block;
 }
 .text-over-media {
