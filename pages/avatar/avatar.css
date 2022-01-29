@@ -4,7 +4,7 @@
   border-radius: 50%;
   margin: 10px;
 }
-.img-container-flex {
+.example-container-flex {
   display: flex;
   justify-content: center;
   align-items: center;

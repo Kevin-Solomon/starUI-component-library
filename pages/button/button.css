@@ -1,0 +1,33 @@
+.error-btn {
+  background-color: var(--danger-color);
+  color: var(--white-color);
+  border: 1px solid var(--danger-color);
+}
+.success-btn {
+  background-color: var(--success-color);
+  color: var(--black-color);
+  border: 1px solid var(--success-color);
+}
+.btn-outline-primary {
+  border: 1px solid var(--primary-color);
+}
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.btn-outline-success {
+  border: 1px solid var(--success-color);
+  color: var(--success-color);
+}
+.btn-outline-success:hover {
+  background-color: var(--success-color);
+  color: var(--white-color);
+}
+.btn-outline-danger {
+  border: 1px solid var(--danger-color);
+  color: var(--danger-color);
+}
+.btn-outline-danger:hover {
+  background-color: var(--danger-color);
+  color: var(--white-color);
+}

@@ -1,0 +1,49 @@
+@import url(../avatar/avatar.css);
+.badge {
+  position: relative;
+  display: inline-block;
+}
+.status {
+  cursor: pointer;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  /* top: 0; */
+  bottom: 15px;
+  right: 10px;
+  border: 2px solid var(--white-color);
+  border-radius: 50%;
+}
+.online {
+  background-color: var(--success-color);
+}
+.offline {
+  background-color: var(--grey-color);
+}
+.dnd {
+  background-color: var(--danger-color);
+}
+.badge-number {
+  cursor: pointer;
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  background-color: var(--danger-color);
+  color: var(--white-color);
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+}
+.badge-number-large {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  top: -15px;
+  right: -30px;
+}
+.badge button {
+  margin: 0;
+}
