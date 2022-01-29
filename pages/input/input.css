@@ -1,0 +1,18 @@
+@import url(../../index.css);
+
+.form-input[type='text'] {
+  border: 1px solid var(--lynx-grey);
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  padding: 10px;
+}
+.form-input:focus {
+  border: 1px solid var(--action-color);
+  outline: none;
+}
+.form-danger label {
+  color: var(--danger-color);
+}
+.form-danger .input-danger {
+  border: 1px solid var(--danger-color);
+}
