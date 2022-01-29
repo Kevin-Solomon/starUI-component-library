@@ -2,11 +2,13 @@
   width: 150px;
   height: 150px;
   border-radius: 5px;
+  object-fit: cover;
 }
 .round-img {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+  object-fit: cover;
 }
 .responsive-img {
   height: auto;
