@@ -1,0 +1,19 @@
+.square-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.round-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.responsive-img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  max-inline-size: 100%;
+  block-size: auto;
+}
