@@ -1,0 +1,28 @@
+.example-container-flex {
+  gap: 20px;
+}
+.list {
+  padding: 0;
+}
+.list > * {
+  padding: 5px;
+}
+.square-list {
+  list-style-type: square;
+}
+.roman-list {
+  list-style-type: lower-roman;
+}
+.no-bullets-list {
+  list-style-type: none;
+}
+.stack-list li {
+  padding: 1rem;
+  background-color: var(--grey-color);
+  margin: 1rem;
+  border-radius: 5px;
+}
+.stack-list {
+  border: 1px solid var(--grey-color);
+  border-radius: 5px;
+}
