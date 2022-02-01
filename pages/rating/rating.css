@@ -1,0 +1,11 @@
+.read-only-rating {
+  background-color: #fcd53f;
+  border-radius: 5px;
+  padding: 5px;
+}
+.read-only-rating > * {
+  padding: 5px;
+}
+.read-only-rating i {
+  font-size: 1rem;
+}
