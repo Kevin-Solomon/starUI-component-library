@@ -3,7 +3,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 /* contained button */
 .error-btn {
   background-color: var(--danger-color);
@@ -15,7 +14,6 @@ html {
   color: var(--black-color);
   border: 1px solid var(--success-color);
 }
-
 /* outline buttons */
 .btn-outline-primary {
   border: 1px solid var(--primary-color);
@@ -28,7 +26,6 @@ html {
   border: 1px solid var(--success-color);
   color: var(--success-color);
 }
-
 /* hover state of outline buttons */
 .btn-outline-success:hover {
   background-color: var(--success-color);
@@ -45,7 +42,6 @@ html {
 /* icon buttons  */
 .btn i {
   padding: 5px;
-  /* color: var(--white-color); */
 }
 /* floating button example used in HTML */
 .floating-example-btn {
@@ -55,7 +51,6 @@ html {
   border-radius: 50%;
   color: var(--white-color);
 }
-
 /* floating button to actually use in the code */
 .floating-btn {
   background-color: var(--action-color);
