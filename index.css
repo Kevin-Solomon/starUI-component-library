@@ -163,7 +163,6 @@ iframe {
   margin-top: 10px;
   width: 100%;
 }
-
 /* code examples */
 .example-code {
   background-color: var(--lynx-white);
@@ -171,19 +170,35 @@ iframe {
   border-radius: 10px;
   border: 1px solid var(--lynx-grey);
 }
-
 /* media query */
+/* Laptop screens */
 @media (max-width: 1024px) {
   .body-center {
     margin: 0 auto;
     width: 90%;
   }
 }
-
+/* medium screens */
+@media (max-width: 768px) {
+  .aside {
+    display: none;
+  }
+  .section {
+    width: 90%;
+  }
+}
+/* Mobile screens */
 @media (max-width: 480px) {
   .navbar {
     padding: 0.5rem;
   }
+  .navbar h2 {
+    font-size: 1.5rem;
+  }
+  .navbar li {
+    padding: 5px;
+  }
+
   .container-center {
     padding-top: 5rem;
   }
@@ -192,12 +207,9 @@ iframe {
     width: 100%;
   }
 }
-
-@media (max-width: 768px) {
-  .aside {
-    display: none;
-  }
-  .section {
-    width: 90%;
+/* Edge case of galazy fold */
+@media (max-width: 290px) {
+  .navbar li {
+    font-size: 0.8rem;
   }
 }
