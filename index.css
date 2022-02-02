@@ -124,7 +124,6 @@ a {
 .primary-btn {
   background-color: var(--primary-color);
   color: var(--white-color);
-  border: 1px solid var(--primary-color);
 }
 .secondary-btn {
   border: 1px solid var(--primary-color);
