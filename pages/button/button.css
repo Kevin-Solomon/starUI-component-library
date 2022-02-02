@@ -43,6 +43,10 @@ html {
 .btn i {
   padding: 5px;
 }
+.action-btn {
+  background-color: var(--action-color);
+  color: var(--white-color);
+}
 /* floating button example used in HTML */
 .floating-example-btn {
   background-color: var(--action-color);
