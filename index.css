@@ -187,6 +187,16 @@ iframe {
   border-radius: 10px;
   border: 1px solid var(--lynx-grey);
 }
+/* footer  */
+.footer {
+  padding: 16px 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.footer-icon {
+  padding: 5px;
+}
 /* media query */
 /* Laptop screens */
 @media (max-width: 1024px) {
