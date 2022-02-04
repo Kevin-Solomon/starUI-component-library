@@ -213,3 +213,19 @@ iframe {
     font-size: 0.8rem;
   }
 }
+/* import all component css files after the styles for index page has been applied */
+@import url(./pages/alert/alert.css);
+@import url(./pages/avatar/avatar.css);
+@import url(./pages/badge/badge.css);
+@import url(./pages/button/button.css);
+@import url(./pages/cards/cards.css);
+@import url(./pages/colors/colors.css);
+@import url(./pages/grid/grid.css);
+@import url(./pages/image/image.css);
+@import url(./pages/input/input.css);
+@import url(./pages/list/list.css);
+@import url(./pages/modal/modal.css);
+@import url(./pages/navigation/navigation.css);
+@import url(./pages/rating/rating.css);
+@import url(./pages/toast/toast.css);
+@import url(./pages/slider/slider.css);
