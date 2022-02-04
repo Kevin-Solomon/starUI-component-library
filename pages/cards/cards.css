@@ -8,13 +8,14 @@
   /* font-size: 1rem; */
   height: max-content;
   background-color: transparent;
-  width: 30rem;
   margin: 0 auto;
   display: flex;
   flex-flow: column;
   row-gap: 1.2rem;
   border-radius: 1rem;
   margin-top: 2rem;
+  width: 100%;
+  max-width: 350px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 1.95px;
 }
 #card-image {
@@ -30,9 +31,10 @@
   justify-content: space-around;
   align-items: baseline;
   padding: 0;
+  margin-bottom: 5px;
 }
 .card-footer button {
-  margin: 1rem;
+  margin: 5px;
 }
 .text-card > * {
   display: none;
