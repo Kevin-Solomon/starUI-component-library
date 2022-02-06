@@ -168,6 +168,9 @@ a {
 .aside {
   flex-basis: 20%;
   margin-right: 1rem;
+  position: sticky;
+  top: 0;
+  height: calc(100vh - 150px);
 }
 .section {
   flex-grow: 0;
