@@ -210,13 +210,17 @@ iframe {
 }
 /* footer  */
 .footer {
-  padding: 16px 0px;
+  padding: 16px 10px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
 }
 .footer-icon {
   padding: 5px;
+}
+.footer .previous-page,
+.footer .next-page {
+  color: var(--primary-color);
 }
 /* media query */
 /* Laptop screens */
