@@ -82,7 +82,7 @@
   padding: 0;
   gap: 10px;
 }
-.card.card-horizontal #card-image {
+.card.card-horizontal .card-image {
   width: 150px;
   object-fit: cover;
   border-radius: 1rem 0 0 0;
