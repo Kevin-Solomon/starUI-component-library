@@ -18,6 +18,17 @@
   max-width: 350px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 1.95px;
 }
+.text-overlay {
+  position: relative;
+  padding: 0;
+}
+.text-overlay .card-header {
+  color: white;
+  position: absolute;
+  /* top: 0; */
+  bottom: 0;
+  padding: 10px;
+}
 #card-image {
   padding: 0;
   width: 100%;
@@ -43,16 +54,6 @@
 .text-card h3 {
   padding: 10px;
   display: block;
-}
-.text-over-media {
-  position: relative;
-}
-.card-header {
-  position: absolute;
-  /* color: white; */
-  /* bottom: 0; */
-  top: 200px;
-  color: var(--white-color);
 }
 .badge .card-badge {
   top: 10px;
