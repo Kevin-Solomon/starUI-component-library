@@ -1,186 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href='../../index.css'>
-  <link rel="stylesheet" href="./badge.css">
-  <link rel='stylesheet' href='../avatar/avatar.css'>
-  <link rel="stylesheet" href="../colors/colors.css">
-  <title>starUI🌟 | Badge</title>
-</head>
-<body>
-  <div class="body-center">
-    <nav class='navbar drawer'>
-      <div class="logo">
-        <h2>starUI🌟</h2>
-      </div>
-      <div class="right-nav">
-        <ul>
-          <li><a href="./pages/introduction/introduction.html">Docs</a></li>
-        <li><a href="https://github.com/Kevin-Solomon/starUI-component-library">Github</a></li>
-        <li><a href="https://twitter.com/kevinsolomon777">Twitter</a></li>
-        </ul>
-      </div>
-      <div class="hamburger-line">
-        <span class="line line1"></span>
-        <span class="line line2"></span>
-        <span class="line line3"></span>
-      </div>
-    </nav>
-    <main class="container-flex">
-      <aside class="aside">
-        <h4 class='underline'>Get Started</h4>
-        <ul>
-          <li><a href="../introduction/introduction.html">Introduction</a></li>
-          <li><a href="../colors/colors.html">Colors</a></li>
-          <li><a href="../typography/typography.html">Typography</a></li>
-          <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
-        </ul>
-        <h4 class="underline">Components</h4>
-        <ul>
-          <li><a href="../avatar/avatar.html">Avatar</a></li>
-          <li><a href="../alert/alert.html">Alert</a></li>
-          <li><a class='active' href="./badge.html">Badge</a></li>
-          <li><a href="../button/button.html">Button</a></li>
-          <li><a href="../cards/cards.html">Card</a></li>
-          <li><a href="../image/image.html">Image</a></li>
-          <li><a href="../input/input.html">Input</a></li>
-          <li><a href="../modal/modal.html">Modal</a></li>
-          <li><a href="../slider/slider.html">Slider</a></li>
-          <li><a href="../navigation/navigation.html ">Navigation</a></li>
-          <li><a href="../list/list.html">List</a></li>
-          <li><a href="../toast/toast.html">Toast</a></li>
-          <li><a href="../rating/rating.html">Rating</a></li>
-          <li><a href='../grid/grid.html'>Simplified Grid</a></li>
-        </ul>
-      </aside>
-      <section class="section">
-        <article class="section-content underline">
-          <h2>Badge</h2>
-          <p class="small-text">Badges are simple and basic components that are used to display an indicator or count a number. This is quite useful for mail count and alerting purposes, among other things.</p>
-        </article>
-        <article class="section-content underline">
-          <h2>Profile Badge</h2>
-          <p class="small-text">Profile Badge is used to show the current status of a user.
-            It can be used with 3 variants : online | offline | dnd</p>
-          <div class="example-code">
-            <div class="example-container-flex">
-              <div class="badge">
-                <img src="../../assets/image1.jpg" class="avatar">
-                <div class="status online"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="./badge.css" />
+    <link rel="stylesheet" href="../avatar/avatar.css" />
+    <link rel="stylesheet" href="../colors/colors.css" />
+    <title>starUI🌟 | Badge</title>
+  </head>
+  <body>
+    <div class="body-center">
+      <nav class="navbar drawer">
+        <div class="logo">
+          <h2><a href="/">starUI🌟</a></h2>
+        </div>
+        <div class="right-nav">
+          <ul>
+            <li><a href="./pages/introduction/introduction.html">Docs</a></li>
+            <li>
+              <a
+                href="https://github.com/Kevin-Solomon/starUI-component-library"
+                >Github</a
+              >
+            </li>
+            <li><a href="https://twitter.com/kevinsolomon777">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="hamburger-line">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+      </nav>
+      <main class="container-flex">
+        <aside class="aside">
+          <h4 class="underline">Get Started</h4>
+          <ul>
+            <li>
+              <a href="../introduction/introduction.html">Introduction</a>
+            </li>
+            <li><a href="../colors/colors.html">Colors</a></li>
+            <li><a href="../typography/typography.html">Typography</a></li>
+            <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
+          </ul>
+          <h4 class="underline">Components</h4>
+          <ul>
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a class="active" href="./badge.html">Badge</a></li>
+            <li><a href="../button/button.html">Button</a></li>
+            <li><a href="../cards/cards.html">Card</a></li>
+            <li><a href="../image/image.html">Image</a></li>
+            <li><a href="../input/input.html">Input</a></li>
+            <li><a href="../modal/modal.html">Modal</a></li>
+            <li><a href="../slider/slider.html">Slider</a></li>
+            <li><a href="../navigation/navigation.html ">Navigation</a></li>
+            <li><a href="../list/list.html">List</a></li>
+            <li><a href="../toast/toast.html">Toast</a></li>
+            <li><a href="../rating/rating.html">Rating</a></li>
+            <li><a href="../grid/grid.html">Simplified Grid</a></li>
+          </ul>
+        </aside>
+        <section class="section">
+          <article class="section-content underline">
+            <h2>Badge</h2>
+            <p class="small-text">
+              Badges are simple and basic components that are used to display an
+              indicator or count a number. This is quite useful for mail count
+              and alerting purposes, among other things.
+            </p>
+          </article>
+          <article class="section-content underline">
+            <h2>Profile Badge</h2>
+            <p class="small-text">
+              Profile Badge is used to show the current status of a user. It can
+              be used with 3 variants : online | offline | dnd
+            </p>
+            <div class="example-code">
+              <div class="example-container-flex">
+                <div class="badge">
+                  <img src="../../assets/image1.jpg" class="avatar" />
+                  <div class="status online"></div>
+                </div>
+                <div class="badge">
+                  <img src="../../assets/image1.jpg" class="avatar" />
+                  <div class="status offline"></div>
+                </div>
+                <div class="badge">
+                  <img src="../../assets/image1.jpg" class="avatar" />
+                  <div class="status dnd"></div>
+                </div>
               </div>
-              <div class="badge">
-                <img src="../../assets/image1.jpg" class="avatar">
-                <div class="status offline"></div>
-              </div>
-              <div class="badge">
-                <img src="../../assets/image1.jpg" class="avatar">
-                <div class="status dnd"></div>
-              </div>
-            </div>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520use%2520badge%2520on%2520the%2520parent%2520and%2520the%2520variant%2520name%2520on%2520the%2520child%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522image1.jpg%2522%2520class%253D%2522avatar%2522%2520alt%253D%2522avatar-badge%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522status%2520online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522image2.jpg%2522%2520class%253D%2522avatar%2522%2520alt%253D%2522avatar-badge%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522status%2520offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522image3.jpg%2522%2520class%253D%2522avatar%2522%2520alt%253D%2522avatar-badge%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522status%2520dnd%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-              style=" height: 465px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <article class="section-content underline">
-          <h2>Text with Badge</h2>
-          <p class="small-text">Sometimes we want badges on top of text.</p>
-          <div class="example-code">
-            <div class="example-container-flex">
-              <div class="badge">
-                <p>Text with badge</p>
-                <div class='badge-number'>10</div>
-              </div>
-            </div>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520use%2520badge%2520on%2520the%2520parent%2520and%2520the%2520badge-number%2520name%2520on%2520the%2520child%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cp%253EText%2520with%2520badge%253C%252Fp%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%27badge-number%27%253E10%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-              style=" height: 298px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <article class="section-content underline">
-          <h2>Text with large Badge</h2>
-          <p class="small-text">This is a variation of a badge with bigger proportions.</p>
-          <div class="example-code">
-            <div class="example-container-flex">
-              <div class="badge">
-                <p>Text with badge</p>
-                <div class='badge-number badge-number-large'>10</div>
-              </div>
-            </div>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520use%2520badge%2520on%2520the%2520parent%2520and%2520the%2520badge-number%2520badge-number-large%2520name%2520on%2520the%2520child%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cp%253EText%2520with%2520badge%253C%252Fp%253E%250A%2509%253Cdiv%2520class%253D%27badge-number%2520badge-number-large%27%253E10%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-              style="height: 298px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <article class="section-content underline">
-          <h2>Button with Badge</h2>
-          <p class="small-text">These are the most common type of badges, you can spot them in virtually any website.</p>
-          <div class="example-code">
-            <div class="example-container-flex">
-              
-              <div class='badge'>
-                <button class="btn primary-btn">action</button>
-                <div class='badge-number'>1</div>
-              </div>
-            </div>
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520use%2520badge%2520on%2520the%2520parent%2520and%2520the%2520badge-number%2520name%2520on%2520the%2520child%2520--%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A%253Cdiv%2520class%253D%27badge%27%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253Eaction%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520class%253D%27badge-number%27%253E1%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                style="height: 316px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520use%2520badge%2520on%2520the%2520parent%2520and%2520the%2520variant%2520name%2520on%2520the%2520child%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522image1.jpg%2522%2520class%253D%2522avatar%2522%2520alt%253D%2522avatar-badge%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522status%2520online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522image2.jpg%2522%2520class%253D%2522avatar%2522%2520alt%253D%2522avatar-badge%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522status%2520offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522image3.jpg%2522%2520class%253D%2522avatar%2522%2520alt%253D%2522avatar-badge%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522status%2520dnd%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                style="
+                  height: 465px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
               </iframe>
-          </div>
-        </article>
-        <footer class="footer">
-          <div class="previous-page">
-            <a href="../alert/alert.html"> <i class="fas fa-chevron-left footer-icon"></i>Alert</a>
-          </div>
-          <div class="next-page">
-            <a href="../button/button.html">Button<i class="fas fa-chevron-right footer-icon"></i></a>
-          </div>
-        </footer>
-        
-      </section>
-  
-    </main>
-    <div class="mobile-nav-menu">
-      <div class="mobile-nav-container">
-        <ul class="no-bullets-list">
-          <h4>Get Started</h4>
-          <li><a href="../introduction/introduction.html">Introduction</a></li>
-          <li><a href="../colors/colors.html">Colors</a></li>
-          <li><a href="../typography/typography.html">Typography</a></li>
-          <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
-        </ul>
-        <h4>Components</h4>
-        <ul>
-          <li><a href="../avatar/avatar.html">Avatar</a></li>
-          <li><a href="../alert/alert.html">Alert</a></li>
-          <li><a class='active' href="./badge.html">Badge</a></li>
-          <li><a href="../button/button.html">Button</a></li>
-          <li><a href="../cards/cards.html">Card</a></li>
-          <li><a href="../image/image.html">Image</a></li>
-          <li><a href="../input/input.html">Input</a></li>
-          <li><a href="../modal/modal.html">Modal</a></li>
-          <li><a href="../slider/slider.html">Slider</a></li>
-          <li><a href="../navigation/navigation.html ">Navigation</a></li>
-          <li><a href="../list/list.html">List</a></li>
-          <li><a href="../toast/toast.html">Toast</a></li>
-          <li><a href="../rating/rating.html">Rating</a></li>
-          <li><a href='../grid/grid.html'>Simplified Grid</a></li>
-        </ul>
+            </div>
+          </article>
+          <article class="section-content underline">
+            <h2>Text with Badge</h2>
+            <p class="small-text">Sometimes we want badges on top of text.</p>
+            <div class="example-code">
+              <div class="example-container-flex">
+                <div class="badge">
+                  <p>Text with badge</p>
+                  <div class="badge-number">10</div>
+                </div>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520use%2520badge%2520on%2520the%2520parent%2520and%2520the%2520badge-number%2520name%2520on%2520the%2520child%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cp%253EText%2520with%2520badge%253C%252Fp%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%27badge-number%27%253E10%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  height: 298px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+          <article class="section-content underline">
+            <h2>Text with large Badge</h2>
+            <p class="small-text">
+              This is a variation of a badge with bigger proportions.
+            </p>
+            <div class="example-code">
+              <div class="example-container-flex">
+                <div class="badge">
+                  <p>Text with badge</p>
+                  <div class="badge-number badge-number-large">10</div>
+                </div>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520use%2520badge%2520on%2520the%2520parent%2520and%2520the%2520badge-number%2520badge-number-large%2520name%2520on%2520the%2520child%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cp%253EText%2520with%2520badge%253C%252Fp%253E%250A%2509%253Cdiv%2520class%253D%27badge-number%2520badge-number-large%27%253E10%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  height: 298px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+          <article class="section-content underline">
+            <h2>Button with Badge</h2>
+            <p class="small-text">
+              These are the most common type of badges, you can spot them in
+              virtually any website.
+            </p>
+            <div class="example-code">
+              <div class="example-container-flex">
+                <div class="badge">
+                  <button class="btn primary-btn">action</button>
+                  <div class="badge-number">1</div>
+                </div>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520use%2520badge%2520on%2520the%2520parent%2520and%2520the%2520badge-number%2520name%2520on%2520the%2520child%2520--%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A%253Cdiv%2520class%253D%27badge%27%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253Eaction%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520class%253D%27badge-number%27%253E1%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  height: 316px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+          <footer class="footer">
+            <div class="previous-page">
+              <a href="../alert/alert.html">
+                <i class="fas fa-chevron-left footer-icon"></i>Alert</a
+              >
+            </div>
+            <div class="next-page">
+              <a href="../button/button.html"
+                >Button<i class="fas fa-chevron-right footer-icon"></i
+              ></a>
+            </div>
+          </footer>
+        </section>
+      </main>
+      <div class="mobile-nav-menu">
+        <div class="mobile-nav-container">
+          <ul class="no-bullets-list">
+            <h4>Get Started</h4>
+            <li>
+              <a href="../introduction/introduction.html">Introduction</a>
+            </li>
+            <li><a href="../colors/colors.html">Colors</a></li>
+            <li><a href="../typography/typography.html">Typography</a></li>
+            <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
+          </ul>
+          <h4>Components</h4>
+          <ul>
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a class="active" href="./badge.html">Badge</a></li>
+            <li><a href="../button/button.html">Button</a></li>
+            <li><a href="../cards/cards.html">Card</a></li>
+            <li><a href="../image/image.html">Image</a></li>
+            <li><a href="../input/input.html">Input</a></li>
+            <li><a href="../modal/modal.html">Modal</a></li>
+            <li><a href="../slider/slider.html">Slider</a></li>
+            <li><a href="../navigation/navigation.html ">Navigation</a></li>
+            <li><a href="../list/list.html">List</a></li>
+            <li><a href="../toast/toast.html">Toast</a></li>
+            <li><a href="../rating/rating.html">Rating</a></li>
+            <li><a href="../grid/grid.html">Simplified Grid</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-  <script src="https://kit.fontawesome.com/ba728779ac.js" crossorigin="anonymous"></script>
-  <script src="../../mobileNav.js"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/ba728779ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../mobileNav.js"></script>
+  </body>
 </html>

@@ -1,190 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href='../../index.css'>
-  <link rel="stylesheet" href="../avatar/avatar.css">
-  <link rel="stylesheet" href="./button.css">
-  <title>starUI🌟 | Button</title>
-</head>
-<body>
-  <div class="body-center" id="body-container">
-    <nav class='navbar drawer'>
-      <div class="logo">
-        <h2>starUI🌟</h2>
-      </div>
-      <div class="right-nav">
-        <ul>
-          <li><a href="./pages/introduction/introduction.html">Docs</a></li>
-        <li><a href="https://github.com/Kevin-Solomon/starUI-component-library">Github</a></li>
-        <li><a href="https://twitter.com/kevinsolomon777">Twitter</a></li>
-        </ul>
-      </div>
-      <div class="hamburger-line">
-        <span class="line line1"></span>
-        <span class="line line2"></span>
-        <span class="line line3"></span>
-      </div>
-    </nav>
-    <main class="container-flex">
-      <aside class="aside">
-        <h4 class='underline'>Get Started</h4>
-        <ul>
-          <li><a href="../introduction/introduction.html">Introduction</a></li>
-          <li><a href="../colors/colors.html">Colors</a></li>
-          <li><a href="../typography/typography.html">Typography</a></li>
-          <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
-        </ul>
-        <h4 class="underline">Components</h4>
-        <ul>
-          <li><a href="../avatar/avatar.html">Avatar</a></li>
-          <li><a href="../alert/alert.html">Alert</a></li>
-          <li><a href="../badge/badge.html">Badge</a></li>
-          <li><a class='active' href="./button.html">Button</a></li>
-          <li><a href="../cards/cards.html">Card</a></li>
-          <li><a href="../image/image.html">Image</a></li>
-          <li><a href="../input/input.html">Input</a></li>
-          <li><a href="../modal/modal.html">Modal</a></li>
-          <li><a href="../slider/slider.html">Slider</a></li>
-          <li><a href="../navigation/navigation.html ">Navigation</a></li>
-          <li><a href="../list/list.html">List</a></li>
-          <li><a href="../toast/toast.html">Toast</a></li>
-          <li><a href="../rating/rating.html">Rating</a></li>
-          <li><a href='../grid/grid.html'>Simplified Grid</a></li>
-        </ul>
-      </aside>
-      <!-- Buttons -->
-      <section class="section">
-        <article class="section-content underline">
-          <h2>Button</h2>
-          <p class="small-text">Buttons refer to styled HTML buttons that developers customize to match their website designs. You can manipulate the colors, text sizes, padding, and even change styling properties when buttons enter different states.</p>
-        </article>
-        <article class="section-content underline">
-          <h2>Contained Button</h2>
-          <p class="small-text">Contained buttons can also be considered as the primary button of your website.</p>
-          <div class="example-code">
-            <div class="example-container-flex">
-              <button class='btn primary-btn'>Primary</button>
-              <button class='btn error-btn'>Error</button>
-              <button class='btn success-btn'>Success</button>
-            </div>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520use%2520btn%2520followed%2520by%2520btn-variant%2520in%2520class%2520--%253E%250A%250A%253Cbutton%2520class%253D%27btn%2520primary-btn%27%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%27btn%2520error-btn%27%253EError%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%27btn%2520success-btn%27%253ESuccess%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-              style=" height: 316px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <!-- outline buttons -->
-        <article class="section-content underline">
-          <h2>Outline Button</h2>
-          <p class="small-text">Outline buttons can also be considered as the secondary button of your website.</p>
-          <div class="example-code">
-            <div class="example-container-flex">
-              <button class='btn btn-outline-primary'>Primary</button>
-              <button class='btn btn-outline-danger'>Error</button>
-              <button class='btn btn-outline-success'>Success</button>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="../avatar/avatar.css" />
+    <link rel="stylesheet" href="./button.css" />
+    <title>starUI🌟 | Button</title>
+  </head>
+  <body>
+    <div class="body-center" id="body-container">
+      <nav class="navbar drawer">
+        <div class="logo">
+          <h2><a href="/">starUI🌟</a></h2>
+        </div>
+        <div class="right-nav">
+          <ul>
+            <li><a href="./pages/introduction/introduction.html">Docs</a></li>
+            <li>
+              <a
+                href="https://github.com/Kevin-Solomon/starUI-component-library"
+                >Github</a
+              >
+            </li>
+            <li><a href="https://twitter.com/kevinsolomon777">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="hamburger-line">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+      </nav>
+      <main class="container-flex">
+        <aside class="aside">
+          <h4 class="underline">Get Started</h4>
+          <ul>
+            <li>
+              <a href="../introduction/introduction.html">Introduction</a>
+            </li>
+            <li><a href="../colors/colors.html">Colors</a></li>
+            <li><a href="../typography/typography.html">Typography</a></li>
+            <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
+          </ul>
+          <h4 class="underline">Components</h4>
+          <ul>
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a class="active" href="./button.html">Button</a></li>
+            <li><a href="../cards/cards.html">Card</a></li>
+            <li><a href="../image/image.html">Image</a></li>
+            <li><a href="../input/input.html">Input</a></li>
+            <li><a href="../modal/modal.html">Modal</a></li>
+            <li><a href="../slider/slider.html">Slider</a></li>
+            <li><a href="../navigation/navigation.html ">Navigation</a></li>
+            <li><a href="../list/list.html">List</a></li>
+            <li><a href="../toast/toast.html">Toast</a></li>
+            <li><a href="../rating/rating.html">Rating</a></li>
+            <li><a href="../grid/grid.html">Simplified Grid</a></li>
+          </ul>
+        </aside>
+        <!-- Buttons -->
+        <section class="section">
+          <article class="section-content underline">
+            <h2>Button</h2>
+            <p class="small-text">
+              Buttons refer to styled HTML buttons that developers customize to
+              match their website designs. You can manipulate the colors, text
+              sizes, padding, and even change styling properties when buttons
+              enter different states.
+            </p>
+          </article>
+          <article class="section-content underline">
+            <h2>Contained Button</h2>
+            <p class="small-text">
+              Contained buttons can also be considered as the primary button of
+              your website.
+            </p>
+            <div class="example-code">
+              <div class="example-container-flex">
+                <button class="btn primary-btn">Primary</button>
+                <button class="btn error-btn">Error</button>
+                <button class="btn success-btn">Success</button>
+              </div>
               <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520use%2520btn%2520followed%2520by%2520outline-variant%2520name%2520in%2520class%2520--%253E%250A%250A%253Cbutton%2520class%253D%27btn%2520outline-primary%27%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%27btn%2520outline-danger%27%253EError%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%27btn%2520outline-success%27%253ESuccess%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-              style=" height: 316px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <!-- icon buttons -->
-        <article class="section-content underline">
-          <h2>Icon Buttons</h2>
-          <p class="small-text active">Note : To use this button you need to have a font awesome stater kit or replace it with another icon.</p>
-          <div class="example-code">
-            <div class="example-container-flex">
-              <button class='btn btn-outline-primary'><i class="fa fa-refresh" aria-hidden="true"></i>Refresh</button>
-              <button class='btn btn-outline-danger'><i class="fa fa-download" aria-hidden="true"></i>Download</button>
-              <button class='btn btn-outline-success'><i class="fa fa-plus" aria-hidden="true"></i>Add File</button>
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520use%2520btn%2520followed%2520by%2520btn-variant%2520in%2520class%2520--%253E%250A%250A%253Cbutton%2520class%253D%27btn%2520primary-btn%27%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%27btn%2520error-btn%27%253EError%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%27btn%2520success-btn%27%253ESuccess%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="
+                  height: 316px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
             </div>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520add%2520font%2520awesome%2520icons%2520or%2520any%2520icon%2520of%2520your%2520choice%2520--%253E%250A%250A%250A%253Cbutton%2520class%253D%27btn%2520btn-outline-primary%27%253E%253Ci%2520class%253D%2522fa%2520fa-refresh%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%27btn%2520btn-outline-danger%27%253E%253Ci%2520class%253D%2522fa%2520fa-download%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253EError%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%27btn%2520btn-outline-success%27%253E%253Ci%2520class%253D%2522fa%2520fa-plus%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253ESuccess%253C%252Fbutton%253E%250A%250A"
-              style=" height: 372px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <!-- Link Buttons -->
-        <article class="section-content underline">
-          <h2>Link Buttons</h2>
-          <p class="small-text">Link buttons are one of the most basic, yet deeply fundamental and foundational building blocks of the web. </p>
-          <div class="example-code">
-            <div class="example-container-flex">
-              <button class='btn action-btn '><a href="#body-container">Scroll to top !!</a></button>
-              
+          </article>
+          <!-- outline buttons -->
+          <article class="section-content underline">
+            <h2>Outline Button</h2>
+            <p class="small-text">
+              Outline buttons can also be considered as the secondary button of
+              your website.
+            </p>
+            <div class="example-code">
+              <div class="example-container-flex">
+                <button class="btn btn-outline-primary">Primary</button>
+                <button class="btn btn-outline-danger">Error</button>
+                <button class="btn btn-outline-success">Success</button>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520use%2520btn%2520followed%2520by%2520outline-variant%2520name%2520in%2520class%2520--%253E%250A%250A%253Cbutton%2520class%253D%27btn%2520outline-primary%27%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%27btn%2520outline-danger%27%253EError%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%27btn%2520outline-success%27%253ESuccess%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="
+                  height: 316px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
             </div>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520just%2520add%2520an%2520anchor%2520tag%2520in%2520the%2520button%2520%2520--%253E%250A%250A%253Cbutton%2520class%253D%27btn%2520btn-outline-primary%27%253E%250A%2520%2520%253Ca%2520href%253D%2522link%2522%253EScroll%2520to%2520top%2520%21%21%253C%252Fa%253E%250A%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-              style=" height: 279px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <!-- floating buttons -->
-        <article class="section-content underline">
-          <h2>Floating Action Buttons</h2>
-          <p class="small-text active">Note : This buttom shows the look of the button , but the actual button will appear on the bottom right o the screen.</p>
-          <div class="example-code">
-            <div class="example-container-flex">
-              <button class='btn floating-example-btn'><i class="fas fa-arrow-up"></i></button>
+          </article>
+          <!-- icon buttons -->
+          <article class="section-content underline">
+            <h2>Icon Buttons</h2>
+            <p class="small-text active">
+              Note : To use this button you need to have a font awesome stater
+              kit or replace it with another icon.
+            </p>
+            <div class="example-code">
+              <div class="example-container-flex">
+                <button class="btn btn-outline-primary">
+                  <i class="fa fa-refresh" aria-hidden="true"></i>Refresh
+                </button>
+                <button class="btn btn-outline-danger">
+                  <i class="fa fa-download" aria-hidden="true"></i>Download
+                </button>
+                <button class="btn btn-outline-success">
+                  <i class="fa fa-plus" aria-hidden="true"></i>Add File
+                </button>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520add%2520font%2520awesome%2520icons%2520or%2520any%2520icon%2520of%2520your%2520choice%2520--%253E%250A%250A%250A%253Cbutton%2520class%253D%27btn%2520btn-outline-primary%27%253E%253Ci%2520class%253D%2522fa%2520fa-refresh%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%27btn%2520btn-outline-danger%27%253E%253Ci%2520class%253D%2522fa%2520fa-download%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253EError%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%27btn%2520btn-outline-success%27%253E%253Ci%2520class%253D%2522fa%2520fa-plus%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253ESuccess%253C%252Fbutton%253E%250A%250A"
+                style="
+                  height: 372px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
             </div>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520add%2520floating-btn%2520class%2520to%2520the%2520button%2520%2520--%253E%250A%250A%250A%253Cbutton%2520class%253D%27btn%2520floating-btn%27%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523link%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fa%253E%250A%253C%252Fbutton%253E%2520%2520%2520%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-              style="height: 409px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        
-        <footer class="footer">
-          <div class="previous-page">
-            <a href="../badge/badge.html"> <i class="fas fa-chevron-left footer-icon"></i>Badge</a>
-          </div>
-          <div class="next-page">
-            <a href="../cards/cards.html">Card<i class="fas fa-chevron-right footer-icon"></i></a>
-          </div>
-        </footer>
-      </section>
-  
-    </main>
-    <div class="mobile-nav-menu">
-      <div class="mobile-nav-container">
-        <ul class="no-bullets-list">
-          <h4>Get Started</h4>
-          <li><a href="../introduction/introduction.html">Introduction</a></li>
-          <li><a href="../colors/colors.html">Colors</a></li>
-          <li><a href="../typography/typography.html">Typography</a></li>
-          <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
-        </ul>
-        <h4>Components</h4>
-        <ul>
-          <li><a href="../avatar/avatar.html">Avatar</a></li>
-          <li><a href="../alert/alert.html">Alert</a></li>
-          <li><a href="../badge/badge.html">Badge</a></li>
-          <li><a class='active' href="./button.html">Button</a></li>
-          <li><a href="../cards/cards.html">Card</a></li>
-          <li><a href="../image/image.html">Image</a></li>
-          <li><a href="../input/input.html">Input</a></li>
-          <li><a href="../modal/modal.html">Modal</a></li>
-          <li><a href="../slider/slider.html">Slider</a></li>
-          <li><a href="../navigation/navigation.html ">Navigation</a></li>
-          <li><a href="../list/list.html">List</a></li>
-          <li><a href="../toast/toast.html">Toast</a></li>
-          <li><a href="../rating/rating.html">Rating</a></li>
-          <li><a href='../grid/grid.html'>Simplified Grid</a></li>
-        </ul>
+          </article>
+          <!-- Link Buttons -->
+          <article class="section-content underline">
+            <h2>Link Buttons</h2>
+            <p class="small-text">
+              Link buttons are one of the most basic, yet deeply fundamental and
+              foundational building blocks of the web.
+            </p>
+            <div class="example-code">
+              <div class="example-container-flex">
+                <button class="btn action-btn">
+                  <a href="#body-container">Scroll to top !!</a>
+                </button>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520just%2520add%2520an%2520anchor%2520tag%2520in%2520the%2520button%2520%2520--%253E%250A%250A%253Cbutton%2520class%253D%27btn%2520btn-outline-primary%27%253E%250A%2520%2520%253Ca%2520href%253D%2522link%2522%253EScroll%2520to%2520top%2520%21%21%253C%252Fa%253E%250A%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="
+                  height: 279px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+          <!-- floating buttons -->
+          <article class="section-content underline">
+            <h2>Floating Action Buttons</h2>
+            <p class="small-text active">
+              Note : This buttom shows the look of the button , but the actual
+              button will appear on the bottom right o the screen.
+            </p>
+            <div class="example-code">
+              <div class="example-container-flex">
+                <button class="btn floating-example-btn">
+                  <i class="fas fa-arrow-up"></i>
+                </button>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520add%2520floating-btn%2520class%2520to%2520the%2520button%2520%2520--%253E%250A%250A%250A%253Cbutton%2520class%253D%27btn%2520floating-btn%27%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523link%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fa%253E%250A%253C%252Fbutton%253E%2520%2520%2520%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="
+                  height: 409px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <footer class="footer">
+            <div class="previous-page">
+              <a href="../badge/badge.html">
+                <i class="fas fa-chevron-left footer-icon"></i>Badge</a
+              >
+            </div>
+            <div class="next-page">
+              <a href="../cards/cards.html"
+                >Card<i class="fas fa-chevron-right footer-icon"></i
+              ></a>
+            </div>
+          </footer>
+        </section>
+      </main>
+      <div class="mobile-nav-menu">
+        <div class="mobile-nav-container">
+          <ul class="no-bullets-list">
+            <h4>Get Started</h4>
+            <li>
+              <a href="../introduction/introduction.html">Introduction</a>
+            </li>
+            <li><a href="../colors/colors.html">Colors</a></li>
+            <li><a href="../typography/typography.html">Typography</a></li>
+            <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
+          </ul>
+          <h4>Components</h4>
+          <ul>
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a class="active" href="./button.html">Button</a></li>
+            <li><a href="../cards/cards.html">Card</a></li>
+            <li><a href="../image/image.html">Image</a></li>
+            <li><a href="../input/input.html">Input</a></li>
+            <li><a href="../modal/modal.html">Modal</a></li>
+            <li><a href="../slider/slider.html">Slider</a></li>
+            <li><a href="../navigation/navigation.html ">Navigation</a></li>
+            <li><a href="../list/list.html">List</a></li>
+            <li><a href="../toast/toast.html">Toast</a></li>
+            <li><a href="../rating/rating.html">Rating</a></li>
+            <li><a href="../grid/grid.html">Simplified Grid</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-  <button class='btn floating-btn'><a href="#body-container"><i class="fas fa-arrow-up"></i></a></button>
-  <script src="https://kit.fontawesome.com/ba728779ac.js" crossorigin="anonymous"></script>
-  <script src="../../mobileNav.js"></script>
-</body>
+    <button class="btn floating-btn">
+      <a href="#body-container"><i class="fas fa-arrow-up"></i></a>
+    </button>
+    <script
+      src="https://kit.fontawesome.com/ba728779ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../mobileNav.js"></script>
+  </body>
 </html>
