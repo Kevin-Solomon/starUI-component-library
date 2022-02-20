@@ -1,131 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href='../../index.css'>
-  <link rel="stylesheet" href='./toast.css'>
-  <link rel="stylesheet" href="../avatar/avatar.css">
-  <title>starUI🌟 | Toast</title>
-</head>
-<body>
-  <div class="body-center">
-    <nav class='navbar drawer'>
-      <div class="logo">
-        <h2>starUI🌟</h2>
-      </div>
-      <div class="right-nav">
-        <ul>
-          <li><a href="./pages/introduction/introduction.html">Docs</a></li>
-        <li><a href="https://github.com/Kevin-Solomon/starUI-component-library">Github</a></li>
-        <li><a href="https://twitter.com/kevinsolomon777">Twitter</a></li>
-        </ul>
-      </div>
-      <div class="hamburger-line">
-        <span class="line line1"></span>
-        <span class="line line2"></span>
-        <span class="line line3"></span>
-      </div>
-    </nav>
-    <main class="container-flex">
-      <aside class="aside">
-        <h4 class='underline'>Get Started</h4>
-        <ul>
-          <li><a href="../introduction/introduction.html">Introduction</a></li>
-          <li><a href="../colors/colors.html">Colors</a></li>
-          <li><a href="../typography/typography.html">Typography</a></li>
-          <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
-        </ul>
-        <h4 class="underline">Components</h4>
-        <ul>
-          <li><a href="../avatar/avatar.html">Avatar</a></li>
-          <li><a href="../alert/alert.html">Alert</a></li>
-          <li><a href="../badge/badge.html">Badge</a></li>
-          <li><a href="../button/button.html">Button</a></li>
-          <li><a href="../cards/cards.html">Card</a></li>
-          <li><a href="../image/image.html">Image</a></li>
-          <li><a href="../input/input.html">Input</a></li>
-          <li><a href="../modal/modal.html">Modal</a></li>
-          <li><a href="../slider/slider.html">Slider</a></li>
-          <li><a href="../navigation/navigation.html ">Navigation</a></li>
-          <li><a href="../list/list.html">List</a></li>
-          <li><a class='active' href="./toast.html">Toast</a></li>
-          <li><a href="../rating/rating.html">Rating</a></li>
-          <li><a href='../grid/grid.html'>Simplified Grid</a></li>
-        </ul>
-      </aside>
-      <section class="section">
-        <article class="section-content underline">
-          <h2>Toast</h2>
-          <p class="small-text">Toast are often used as tooltips/popups to show a message at the bottom or right side of the screen.</p>
-        </article>
-        <article class="section-content underline">
-          <h2>Basic Toast</h2>
-          <p class="small-text">Click on the button to show the Toast. It will disappear after 3 seconds.</p>
-          <div class="example-code">
-            <div class="example-container-flex">
-              <button id="open-toast" class="btn primary-btn">Click Here !!</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="./toast.css" />
+    <link rel="stylesheet" href="../avatar/avatar.css" />
+    <title>starUI🌟 | Toast</title>
+  </head>
+  <body>
+    <div class="body-center">
+      <nav class="navbar drawer">
+        <div class="logo">
+          <h2><a href="/">starUI🌟</a></h2>
+        </div>
+        <div class="right-nav">
+          <ul>
+            <li><a href="./pages/introduction/introduction.html">Docs</a></li>
+            <li>
+              <a
+                href="https://github.com/Kevin-Solomon/starUI-component-library"
+                >Github</a
+              >
+            </li>
+            <li><a href="https://twitter.com/kevinsolomon777">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="hamburger-line">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+      </nav>
+      <main class="container-flex">
+        <aside class="aside">
+          <h4 class="underline">Get Started</h4>
+          <ul>
+            <li>
+              <a href="../introduction/introduction.html">Introduction</a>
+            </li>
+            <li><a href="../colors/colors.html">Colors</a></li>
+            <li><a href="../typography/typography.html">Typography</a></li>
+            <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
+          </ul>
+          <h4 class="underline">Components</h4>
+          <ul>
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a href="../button/button.html">Button</a></li>
+            <li><a href="../cards/cards.html">Card</a></li>
+            <li><a href="../image/image.html">Image</a></li>
+            <li><a href="../input/input.html">Input</a></li>
+            <li><a href="../modal/modal.html">Modal</a></li>
+            <li><a href="../slider/slider.html">Slider</a></li>
+            <li><a href="../navigation/navigation.html ">Navigation</a></li>
+            <li><a href="../list/list.html">List</a></li>
+            <li><a class="active" href="./toast.html">Toast</a></li>
+            <li><a href="../rating/rating.html">Rating</a></li>
+            <li><a href="../grid/grid.html">Simplified Grid</a></li>
+          </ul>
+        </aside>
+        <section class="section">
+          <article class="section-content underline">
+            <h2>Toast</h2>
+            <p class="small-text">
+              Toast are often used as tooltips/popups to show a message at the
+              bottom or right side of the screen.
+            </p>
+          </article>
+          <article class="section-content underline">
+            <h2>Basic Toast</h2>
+            <p class="small-text">
+              Click on the button to show the Toast. It will disappear after 3
+              seconds.
+            </p>
+            <div class="example-code">
+              <div class="example-container-flex">
+                <button id="open-toast" class="btn primary-btn">
+                  Click Here !!
+                </button>
+              </div>
+              <div class="toast">
+                <p>Something toast!!</p>
+              </div>
+              <h3>HTML</h3>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2509%253Cp%253ESomething%2520toast%21%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="
+                  height: 225px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+              <h3>Javascript</h3>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520openToast%2520%253D%2520document.querySelector%28%27%2523open-toast%27%29%253B%250Aconst%2520toast%2520%253D%2520document.querySelector%28%27.toast%27%29%250Aconst%2520clearToast%2520%253D%2520%28%29%253D%253E%257B%250A%2520%2520toast.classList.remove%28%27show%27%29%253B%250A%257D%250AopenToast.addEventListener%28%27click%27%252C%28%29%253D%253E%257B%250A%2520%2520toast.classList.add%28%27show%27%29%253B%250A%2520%2520setTimeout%28clearToast%252C3000%29%250A%257D%29%250A%250A"
+                style="
+                  height: 374px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
             </div>
-            <div class="toast">
-              <p>Something toast!!</p>
+          </article>
+          <footer class="footer">
+            <div class="previous-page">
+              <a href="../list/list.html">
+                <i class="fas fa-chevron-left footer-icon"></i>List</a
+              >
             </div>
-            <h3>HTML</h3>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2509%253Cp%253ESomething%2520toast%21%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-              style="height: 225px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-            <h3>Javascript</h3>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520openToast%2520%253D%2520document.querySelector%28%27%2523open-toast%27%29%253B%250Aconst%2520toast%2520%253D%2520document.querySelector%28%27.toast%27%29%250Aconst%2520clearToast%2520%253D%2520%28%29%253D%253E%257B%250A%2520%2520toast.classList.remove%28%27show%27%29%253B%250A%257D%250AopenToast.addEventListener%28%27click%27%252C%28%29%253D%253E%257B%250A%2520%2520toast.classList.add%28%27show%27%29%253B%250A%2520%2520setTimeout%28clearToast%252C3000%29%250A%257D%29%250A%250A"
-              style="height: 374px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <footer class="footer">
-          <div class="previous-page">
-            <a href="../list/list.html"> <i class="fas fa-chevron-left footer-icon"></i>List</a>
-          </div>
-          <div class="next-page">
-            <a href="../rating/rating.html">Rating<i class="fas fa-chevron-right footer-icon"></i></a>
-          </div>
-        </footer>
-      </section>
-  
-    </main>
-    <div class="mobile-nav-menu">
-      <div class="mobile-nav-container">
-        <ul class="no-bullets-list">
-          <h4>Get Started</h4>
-          <li><a href="../introduction/introduction.html">Introduction</a></li>
-          <li><a href="../colors/colors.html">Colors</a></li>
-          <li><a href="../typography/typography.html">Typography</a></li>
-          <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
-        </ul>
-        <h4>Components</h4>
-        <ul>
-          <li><a href="../avatar/avatar.html">Avatar</a></li>
-          <li><a href="../alert/alert.html">Alert</a></li>
-          <li><a href="../badge/badge.html">Badge</a></li>
-          <li><a href="../button/button.html">Button</a></li>
-          <li><a href="../cards/cards.html">Card</a></li>
-          <li><a href="../image/image.html">Image</a></li>
-          <li><a href="../input/input.html">Input</a></li>
-          <li><a href="../modal/modal.html">Modal</a></li>
-          <li><a href="../slider/slider.html">Slider</a></li>
-          <li><a href="../navigation/navigation.html ">Navigation</a></li>
-          <li><a href="../list/list.html">List</a></li>
-          <li><a class='active' href="./toast.html">Toast</a></li>
-          <li><a href="../rating/rating.html">Rating</a></li>
-          <li><a href='../grid/grid.html'>Simplified Grid</a></li>
-        </ul>
+            <div class="next-page">
+              <a href="../rating/rating.html"
+                >Rating<i class="fas fa-chevron-right footer-icon"></i
+              ></a>
+            </div>
+          </footer>
+        </section>
+      </main>
+      <div class="mobile-nav-menu">
+        <div class="mobile-nav-container">
+          <ul class="no-bullets-list">
+            <h4>Get Started</h4>
+            <li>
+              <a href="../introduction/introduction.html">Introduction</a>
+            </li>
+            <li><a href="../colors/colors.html">Colors</a></li>
+            <li><a href="../typography/typography.html">Typography</a></li>
+            <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
+          </ul>
+          <h4>Components</h4>
+          <ul>
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a href="../button/button.html">Button</a></li>
+            <li><a href="../cards/cards.html">Card</a></li>
+            <li><a href="../image/image.html">Image</a></li>
+            <li><a href="../input/input.html">Input</a></li>
+            <li><a href="../modal/modal.html">Modal</a></li>
+            <li><a href="../slider/slider.html">Slider</a></li>
+            <li><a href="../navigation/navigation.html ">Navigation</a></li>
+            <li><a href="../list/list.html">List</a></li>
+            <li><a class="active" href="./toast.html">Toast</a></li>
+            <li><a href="../rating/rating.html">Rating</a></li>
+            <li><a href="../grid/grid.html">Simplified Grid</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-  <script src="./toast.js"></script>
-  <script src="https://kit.fontawesome.com/ba728779ac.js" crossorigin="anonymous"></script>
-  <script src="../../mobileNav.js"></script>
-</body>
+    <script src="./toast.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ba728779ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../mobileNav.js"></script>
+  </body>
 </html>

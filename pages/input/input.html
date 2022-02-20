@@ -1,144 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href='../../index.css'>
-  <link rel="stylesheet" href='./input.css'>
-  <link rel="stylesheet" href="../avatar/avatar.css">
-  <title>starUI🌟 | Input</title>
-</head>
-<body>
-  <div class="body-center">
-    <nav class='navbar drawer'>
-      <div class="logo">
-        <h2>starUI🌟</h2>
-      </div>
-      <div class="right-nav">
-        <ul>
-          <li><a href="./pages/introduction/introduction.html">Docs</a></li>
-        <li><a href="https://github.com/Kevin-Solomon/starUI-component-library">Github</a></li>
-        <li><a href="https://twitter.com/kevinsolomon777">Twitter</a></li>
-        </ul>
-      </div>
-      <div class="hamburger-line">
-        <span class="line line1"></span>
-        <span class="line line2"></span>
-        <span class="line line3"></span>
-      </div>
-    </nav>
-    <main class="container-flex">
-      <aside class="aside">
-        <h4 class='underline'>Get Started</h4>
-        <ul>
-          <li><a href="../introduction/introduction.html">Introduction</a></li>
-          <li><a href="../colors/colors.html">Colors</a></li>
-          <li><a href="../typography/typography.html">Typography</a></li>
-          <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
-        </ul>
-        <h4 class="underline">Components</h4>
-        <ul>
-          <li><a href="../avatar/avatar.html">Avatar</a></li>
-          <li><a href="../alert/alert.html">Alert</a></li>
-          <li><a href="../badge/badge.html">Badge</a></li>
-          <li><a href="../button/button.html">Button</a></li>
-          <li><a href="../cards/cards.html">Card</a></li>
-          <li><a href="../image/image.html">Image</a></li>
-          <li><a class="active" href="./input.html">Input</a></li>
-          <li><a href="../modal/modal.html">Modal</a></li>
-          <li><a href="../slider/slider.html">Slider</a></li>
-          <li><a href="../navigation/navigation.html ">Navigation</a></li>
-          <li><a href="../list/list.html">List</a></li>
-          <li><a href="../toast/toast.html">Toast</a></li>
-          <li><a href="../rating/rating.html">Rating</a></li>
-          <li><a href='../grid/grid.html'>Simplified Grid</a></li>
-        </ul>
-      </aside>
-      <section class="section">
-        <article class="section-content underline">
-          <h2>Input</h2>
-          <p class="small-text"> Input styling refers to adding properties to adjust their position, make them interactive, and improve their appearance overall. </p>
-        </article>
-        <article class="section-content underline">
-          <h2>Basic Input</h2>
-          <p class="small-text">Basic inputs are the heart of user interaction when we need to get input from the user. </p>
-          <div class="example-code">
-            <div class="example-container-flex">
-              <form class="form">
-                <label>Name : </label>
-                <input type='text' class="form-input small-text" placeholder="Please enter your name">
-              </form>
-              
-             
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="./input.css" />
+    <link rel="stylesheet" href="../avatar/avatar.css" />
+    <title>starUI🌟 | Input</title>
+  </head>
+  <body>
+    <div class="body-center">
+      <nav class="navbar drawer">
+        <div class="logo">
+          <h2><a href="/">starUI🌟</a></h2>
+        </div>
+        <div class="right-nav">
+          <ul>
+            <li><a href="./pages/introduction/introduction.html">Docs</a></li>
+            <li>
+              <a
+                href="https://github.com/Kevin-Solomon/starUI-component-library"
+                >Github</a
+              >
+            </li>
+            <li><a href="https://twitter.com/kevinsolomon777">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="hamburger-line">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+      </nav>
+      <main class="container-flex">
+        <aside class="aside">
+          <h4 class="underline">Get Started</h4>
+          <ul>
+            <li>
+              <a href="../introduction/introduction.html">Introduction</a>
+            </li>
+            <li><a href="../colors/colors.html">Colors</a></li>
+            <li><a href="../typography/typography.html">Typography</a></li>
+            <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
+          </ul>
+          <h4 class="underline">Components</h4>
+          <ul>
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a href="../button/button.html">Button</a></li>
+            <li><a href="../cards/cards.html">Card</a></li>
+            <li><a href="../image/image.html">Image</a></li>
+            <li><a class="active" href="./input.html">Input</a></li>
+            <li><a href="../modal/modal.html">Modal</a></li>
+            <li><a href="../slider/slider.html">Slider</a></li>
+            <li><a href="../navigation/navigation.html ">Navigation</a></li>
+            <li><a href="../list/list.html">List</a></li>
+            <li><a href="../toast/toast.html">Toast</a></li>
+            <li><a href="../rating/rating.html">Rating</a></li>
+            <li><a href="../grid/grid.html">Simplified Grid</a></li>
+          </ul>
+        </aside>
+        <section class="section">
+          <article class="section-content underline">
+            <h2>Input</h2>
+            <p class="small-text">
+              Input styling refers to adding properties to adjust their
+              position, make them interactive, and improve their appearance
+              overall.
+            </p>
+          </article>
+          <article class="section-content underline">
+            <h2>Basic Input</h2>
+            <p class="small-text">
+              Basic inputs are the heart of user interaction when we need to get
+              input from the user.
+            </p>
+            <div class="example-code">
+              <div class="example-container-flex">
+                <form class="form">
+                  <label>Name : </label>
+                  <input
+                    type="text"
+                    class="form-input small-text"
+                    placeholder="Please enter your name"
+                  />
+                </form>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520add%2520form%2520class%2520and%2520form-input%2520to%2520input%2520child%2520--%253E%250A%250A%253Cform%2520class%253D%2522form%2522%253E%250A%2520%2520%253Clabel%253EName%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%27text%27%2520class%253D%2522form-input%2520small-text%2522%2520placeholder%253D%2522Please%2520enter%2520your%2520name%2522%253E%250A%253C%252Fform%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="
+                  height: 336px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
             </div>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520add%2520form%2520class%2520and%2520form-input%2520to%2520input%2520child%2520--%253E%250A%250A%253Cform%2520class%253D%2522form%2522%253E%250A%2520%2520%253Clabel%253EName%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%27text%27%2520class%253D%2522form-input%2520small-text%2522%2520placeholder%253D%2522Please%2520enter%2520your%2520name%2522%253E%250A%253C%252Fform%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-              style="height: 336px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <article class="section-content underline">
-          <h2>Error Input</h2>
-          <p class="small-text">We have this class to show an error that the program has encountered and we need to display that to the user. </p>
-          <div class="example-code">
-            <div class="example-container-flex">
-
-              <form class="form-danger">
-                <label>Password * : </label>
-                <input type="text" class="form-input small-text input-danger" >
-              </form>
+          </article>
+          <article class="section-content underline">
+            <h2>Error Input</h2>
+            <p class="small-text">
+              We have this class to show an error that the program has
+              encountered and we need to display that to the user.
+            </p>
+            <div class="example-code">
+              <div class="example-container-flex">
+                <form class="form-danger">
+                  <label>Password * : </label>
+                  <input
+                    type="text"
+                    class="form-input small-text input-danger"
+                  />
+                </form>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520add%2520form-danger%2520class%2520and%2520form-input%2520to%2520input%2520child%2520--%253E%250A%250A%253Cform%2520class%253D%2522form-danger%2522%253E%250A%2520%2520%253Clabel%253EPassword%2520*%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522form-input%2520small-text%2520input-danger%2522%2520%253E%250A%253C%252Fform%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="
+                  height: 318px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
             </div>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520add%2520form-danger%2520class%2520and%2520form-input%2520to%2520input%2520child%2520--%253E%250A%250A%253Cform%2520class%253D%2522form-danger%2522%253E%250A%2520%2520%253Clabel%253EPassword%2520*%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522form-input%2520small-text%2520input-danger%2522%2520%253E%250A%253C%252Fform%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-              style=" height: 318px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <footer class="footer">
-          <div class="previous-page">
-            <a href="../image/image.html"> <i class="fas fa-chevron-left footer-icon"></i>Image</a>
-          </div>
-          <div class="next-page">
-            <a href="../modal/modal.html">Modal<i class="fas fa-chevron-right footer-icon"></i></a>
-          </div>
-        </footer>
-        
-      </section>
-  
-    </main>
-    <div class="mobile-nav-menu">
-      <div class="mobile-nav-container">
-        <ul class="no-bullets-list">
-          <h4>Get Started</h4>
-          <li><a href="../introduction/introduction.html">Introduction</a></li>
-          <li><a href="../colors/colors.html">Colors</a></li>
-          <li><a href="../typography/typography.html">Typography</a></li>
-          <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
-        </ul>
-        <h4>Components</h4>
-        <ul>
-          <li><a href="../avatar/avatar.html">Avatar</a></li>
-          <li><a href="../alert/alert.html">Alert</a></li>
-          <li><a href="../badge/badge.html">Badge</a></li>
-          <li><a href="../button/button.html">Button</a></li>
-          <li><a href="../cards/cards.html">Card</a></li>
-          <li><a href="../image/image.html">Image</a></li>
-          <li><a class="active" href="./input.html">Input</a></li>
-          <li><a href="../modal/modal.html">Modal</a></li>
-          <li><a href="../slider/slider.html">Slider</a></li>
-          <li><a href="../navigation/navigation.html ">Navigation</a></li>
-          <li><a href="../list/list.html">List</a></li>
-          <li><a href="../toast/toast.html">Toast</a></li>
-          <li><a href="../rating/rating.html">Rating</a></li>
-          <li><a href='../grid/grid.html'>Simplified Grid</a></li>
-        </ul>
+          </article>
+          <footer class="footer">
+            <div class="previous-page">
+              <a href="../image/image.html">
+                <i class="fas fa-chevron-left footer-icon"></i>Image</a
+              >
+            </div>
+            <div class="next-page">
+              <a href="../modal/modal.html"
+                >Modal<i class="fas fa-chevron-right footer-icon"></i
+              ></a>
+            </div>
+          </footer>
+        </section>
+      </main>
+      <div class="mobile-nav-menu">
+        <div class="mobile-nav-container">
+          <ul class="no-bullets-list">
+            <h4>Get Started</h4>
+            <li>
+              <a href="../introduction/introduction.html">Introduction</a>
+            </li>
+            <li><a href="../colors/colors.html">Colors</a></li>
+            <li><a href="../typography/typography.html">Typography</a></li>
+            <li><a href="../conclusion/conclusion.html">Conclusion</a></li>
+          </ul>
+          <h4>Components</h4>
+          <ul>
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a href="../button/button.html">Button</a></li>
+            <li><a href="../cards/cards.html">Card</a></li>
+            <li><a href="../image/image.html">Image</a></li>
+            <li><a class="active" href="./input.html">Input</a></li>
+            <li><a href="../modal/modal.html">Modal</a></li>
+            <li><a href="../slider/slider.html">Slider</a></li>
+            <li><a href="../navigation/navigation.html ">Navigation</a></li>
+            <li><a href="../list/list.html">List</a></li>
+            <li><a href="../toast/toast.html">Toast</a></li>
+            <li><a href="../rating/rating.html">Rating</a></li>
+            <li><a href="../grid/grid.html">Simplified Grid</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-  <script src="https://kit.fontawesome.com/ba728779ac.js" crossorigin="anonymous"></script>
-  <script src="../../mobileNav.js"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/ba728779ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../mobileNav.js"></script>
+  </body>
 </html>

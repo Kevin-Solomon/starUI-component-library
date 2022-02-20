@@ -9,8 +9,11 @@
 
 # Installation
 
-```css
-<link rel="stylesheet" href="https://starui-component-library.netlify.app/index.css">
+```html
+<link
+  rel="stylesheet"
+  href="https://starui-component-library.netlify.app/index.css"
+/>
 ```
 
 # Table of Contents
@@ -49,8 +52,8 @@ Encountered a bug or do you need a need a feature request ? Please to do check t
 
 # Desktop Version
 
-![checkmate ui gif](assets/starui-desktop.gif)
+![starui gif](assets/starui-desktop.gif)
 
 # Mobile Version
 
-![checkmate ui gif](assets/starui-mobile.gif)
+![starui gif](assets/starui-mobile.gif)
